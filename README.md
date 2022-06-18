@@ -19,7 +19,7 @@ The complete project is explained in [this blog post](https://medium.com/@spp020
 9.  Live watch debugging Angular and Dot Net app with and without docker
 10. Debugging API and UI apps with a single click
 
-## Prerequisits
+## Prerequisites
 
 1.  [VS Code](https://code.visualstudio.com/)
 2.  [.NET Core 2.2 SDK and Runtime](https://dotnet.microsoft.com/download/dotnet-core/2.2)
@@ -43,7 +43,7 @@ Run following command which will export the certificate to the C:/cert/ folder
 
     dotnet dev-certs https -v -ep c:\cert\aspnetcore-cert.pfx -p yourpassword
 
-To enable the volumes mouting, make sure you give share permission to docker for the required drive.
+To enable the volumes mounting, make sure you give share permission to docker for the required drive.
 
 ![DockerVolumePermission](DockerDriveSharing.png)
 
@@ -85,3 +85,4 @@ Common types according to [commitlint-config-conventional (based on the the Angu
 - revert
 - style
 - test
+
